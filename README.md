@@ -9,20 +9,18 @@ Plattformen zu unterstützen.
 
 # Lernziele
 
-* Die Teilnehmenden haben ein Grundverständnis von Flutter mit seinen wesentlichen Aspekten und Einsatzmöglichkeiten
-* Die Teilnehmenden haben ein Grundverständnis von der Programmiersprache Dart
-* Den Teilnehmenden wissen, wie die Verarbeitung von Flutter-Projekten zum Frontend verläuft
-* Die Teilnehmenden kennen die für Web Technologien relevanten Aspekte von Flutter
-* Die Teilnehmenden können eigene Projekte mit Flutter umsetzen
-* Die Teilnehmenden können die Projekte eigenständig weiterentwickeln
-
-_Die Lernziele werden im Laufe der Workshopvorbereitung weiter spezifiziert._
+* Die Teilnehmenden haben ein Grundverständnis von Flutter mit seinen wesentlichen Zielen und Einsatzmöglichkeiten.
+* Die Teilnehmenden haben ein Grundverständnis von der Programmiersprache Dart.
+* Die Telnehmenden haben ein Grundverständnis vom Aufbau einer Flutter Anwendung.
+* Die Teilnehmenden kennen die für Web Technologien relevanten Aspekte von Flutter.
+* Die Teilnehmenden können eigene Projekte mit Flutter umsetzen.
+* Die Teilnehmenden können die Projekte eigenständig weiterentwickeln.
 
 # Vorbereitung
 
 Die Teilnehmenden sollten ein Grundverständnis von objektorientierter Programmierung und Nebenläufigkeit mitbringen.
 
-Ggf. muss die Installation von Flutter im Vorfeld erfolgen.
+_noch ergänzen_
 
 # Aufbau
 
@@ -32,9 +30,9 @@ Ggf. muss die Installation von Flutter im Vorfeld erfolgen.
 * Vor- und Nachteile
 2. Praxis
 * Erklärung einzelner Konzepte und Bausteine von Flutter
+* Parallel kleine Aufgaben zum programmieren und direkten Umsetzen der erklärten Konzepte
 * Dokumentation von Flutter
 * Best Practices
-* Parallel kleine Aufgaben zum programmieren und direkten Umsetzen der erklärten Konzepte
 3. Coding
 * eigenes Projekt oder Beiboot in Flutter
 * Zusammensetzen des Gelernten
@@ -45,15 +43,12 @@ Ggf. muss die Installation von Flutter im Vorfeld erfolgen.
 
 _Eine genauere Aufschlüsselung des Aufbaus sowie eine zeitliche Abschätzung folgen im Laufe der Workshopvorbereitung._
 
-# Termin
-
-~ 50h Workload
-~ 7h pro Woche
-
-Workshop ca. am **16.06.2020**
-
 # Links
 
-[https://flutter.dev/](https://flutter.dev/)
-
-_Weitere Links folgen im Rahmen der Workshopvorbereitung._
+* [Flutter Dokumentation](https://flutter.dev/)
+* [Flutter API Reference Documentation](https://api.flutter.dev/)
+* [Widget Library](https://api.flutter.dev/flutter/widgets/widgets-library.html)
+* [Flutter for Web Developers](https://flutter.dev/docs/get-started/flutter-for/web-devs)
+* [Flutter Gallery](https://gallery.flutter.dev/#/)
+* [Flutter Samples](https://flutter.github.io/samples/#)
+* [Flutter Guide](https://github.com/devonfw-forge/devonfw4flutter)
