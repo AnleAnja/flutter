@@ -1,7 +1,9 @@
 ![Flutter Logo](assets/Flutter-logo-animation-v1-2.gif)
 > Flutter and the related logo are trademarks of Google LLC. We are not endorsed by or affiliated with Google LLC.
 
-# Flutter Workshop
+# Flutter&#8482; Workshop
+
+Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen für Mobilgeräte, Web und Desktop aus einer einzigen Codebasis. In diesem Workshop soll eine erste Einführung in das Framework mit dem Fokus auf Webanwendungen erfolgen. Außerdem sollen die Teilnehmenden das Gelernte anwenden und ein eigenes Projekt umsetzen.
 
 ## Vorbereitung
 
