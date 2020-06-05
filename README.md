@@ -1,28 +1,49 @@
-# Beschreibung
+![Flutter Logo](assets/Flutter-logo-animation-v1-2.gif)
+> Flutter and the related logo are trademarks of Google LLC. We are not endorsed by or affiliated with Google LLC.
 
-Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen für Mobilgeräte, Web und Desktop aus einer einzigen Codebasis. In diesem Workshop soll der Fokus in erster Linie auf Webanwendungen liegen. Als erste Einführung wird die Toolchain von Flutter sowie die Programmiersprache Dart vorgestellt. Im zweiten Teil des Workshops sollen die Teilnehmenden das Gelernte anwenden und ein eigenes Projekt umsetzen.
+# Flutter Workshop
 
-Einige Teilnehmer der Veranstaltung haben ihr Interesse an Flutter geäußert, da sie in der Vergangenheit
-überwiegend Erfahrungen mit der Entwicklung von Backend Anwendungen gesammelt haben und in Flutter
-die Chance sehen, den Umgang mit einem Frontend-Framework zu erlernen, bei dem es einfach ist, viele
-Plattformen zu unterstützen.
+## Vorbereitung
 
-# Lernziele
+* IDE [IntelliJ IDEA](https://www.jetbrains.com/idea/) herunterladen und installieren
+* IntelliJ IDEA Flutter und Dart Plugins installieren
+  * IntelliJ IDEA starten
+  * `File` > `Settings` > `Plugins`
+  * nach Flutter und Dart suchen und installieren
+* Browser [Google Chrome](https://www.google.com/chrome/) herunterladen und installieren
+
+### Installation
+
+* Das Workshop Repository klonen: `git clone https://github.com/AnleAnja/flutter-workshop.git`
+* Das Flutter Repository klonen: `git clone https://github.com/flutter/flutter.git -b stable`
+* Im Flutter Repository die Flutter Konsole `flutter_console.bat` starten
+* Flutter installieren: `flutter doctor`
+
+### Set Up
+
+Die folgenden Schritte werden in der Flutter Konsole `flutter_console.bat` ausgeführt und dienen dazu, den web support für die Entwicklung zu aktivieren.
+
+* `flutter channel beta`
+* `flutter upgrade`
+* `flutter config --enable-web`
+* `flutter devices`
+
+### Anwendung ausführen
+
+* Innerhalb der Konsole in den Ordner `aufgaben` dieses Repositorys wechseln: `cd flutter-workshop` + `cd aufgaben`
+* `flutter run -d chrome`
+
+Es sollte sich ein Browserfenster öffnen, in dem die Anwendung läuft.
+
+## Lernziele
 
 * Die Teilnehmenden haben ein Grundverständnis von Flutter mit seinen wesentlichen Zielen und Einsatzmöglichkeiten.
-* Die Teilnehmenden haben ein Grundverständnis von der Programmiersprache Dart.
 * Die Telnehmenden haben ein Grundverständnis vom Aufbau einer Flutter Anwendung.
 * Die Teilnehmenden kennen die für Web Technologien relevanten Aspekte von Flutter.
 * Die Teilnehmenden können eigene Projekte mit Flutter umsetzen.
 * Die Teilnehmenden können die Projekte eigenständig weiterentwickeln.
 
-# Vorbereitung
-
-Die Teilnehmenden sollten ein Grundverständnis von objektorientierter Programmierung und Nebenläufigkeit mitbringen.
-
-_noch ergänzen_
-
-# Aufbau
+## Aufbau
 
 1. Grundlagen
 * Was ist Flutter?
