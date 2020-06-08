@@ -45,27 +45,6 @@ Es sollte sich ein Browserfenster öffnen, in dem die Anwendung läuft.
 * Die Teilnehmenden können eigene Projekte mit Flutter umsetzen.
 * Die Teilnehmenden können die Projekte eigenständig weiterentwickeln.
 
-## Aufbau
-
-1. Grundlagen
-* Was ist Flutter?
-* Was sind die Einsatzmöglichkeiten?
-* Vor- und Nachteile
-2. Praxis
-* Erklärung einzelner Konzepte und Bausteine von Flutter
-* Parallel kleine Aufgaben zum programmieren und direkten Umsetzen der erklärten Konzepte
-* Dokumentation von Flutter
-* Best Practices
-3. Coding
-* eigenes Projekt oder Beiboot in Flutter
-* Zusammensetzen des Gelernten
-4. Fazit
-* Reflektion des Projekts
-* Alternativen
-* weitere Werkzeuge / Ausblick
-
-_Eine genauere Aufschlüsselung des Aufbaus sowie eine zeitliche Abschätzung folgen im Laufe der Workshopvorbereitung._
-
 # Links
 
 * [Flutter Dokumentation](https://flutter.dev/)
