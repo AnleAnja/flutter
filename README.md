@@ -30,12 +30,16 @@ Die folgenden Schritte werden in der Flutter Konsole `flutter_console.bat` ausge
 * `flutter config --enable-web`
 * `flutter devices`
 
+![Setup](assets/setup.PNG)
+
 ### Anwendung ausführen
 
 * Innerhalb der Konsole in den Ordner `aufgaben` dieses Repositorys wechseln: `cd flutter-workshop` + `cd aufgaben`
 * `flutter run -d chrome`
 
 Es sollte sich ein Browserfenster öffnen, in dem die Anwendung läuft.
+
+![Anwendung](assets/main.PNG)
 
 ## Lernziele
 
