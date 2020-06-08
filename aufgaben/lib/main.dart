@@ -25,52 +25,57 @@ class StartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(
-        title: Text('Flutter Workshop'),
-        backgroundColor: Colors.blue,
-      ),
-      body: Center(
-          child: Column(children: [
-        Padding(
-          padding: EdgeInsets.all(10.0),
-          child: Text('Herzlich Willkommen!',
-              style: Theme.of(context).textTheme.headline2),
-        ),
-        FlutterLogo(
-          size: 250,
-        ),
-        Padding(
-            padding: EdgeInsets.fromLTRB(40.0, 10.0, 40.0, 20.0),
-            child: Text(
-                'Herzlich Willkommen zum Workshop "Flutter im Web" im Rahmen des Moduls "Web Technologien" im Masterstudiengang Medieninformatik mit dem Schwerpunkt "Weaving the Web" an der Technischen Hochschule Köln. Bitte stellt sicher, dass ihr alle Vorbereitungen getroffen habt und den Code ausführen könnt. Die folgenden Buttons sollten euch zu den Aufgaben für den Workshop weiterleiten. Alternativ könnt ihr über den Pfad um "/aufgabe1" oder "/aufgabe2" in eurer URL-Leiste ergänzen und jeweils die Seite neu laden um auf diesen Screen zurückzukehren.',
-                style: TextStyle(fontSize: 17.0))),
-        FlatButton(
-            color: Colors.blueAccent,
-            textColor: Colors.white,
-            padding: EdgeInsets.all(15.0),
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => StatelessTask()));
-            },
-            child: Text(
-              'Aufgabe 1',
-              style: TextStyle(fontSize: 20.0),
-            )),
-        Padding(padding: EdgeInsets.all(10.0)),
-        FlatButton(
-            color: Colors.blueAccent,
-            textColor: Colors.white,
-            padding: EdgeInsets.all(15.0),
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => StatefulTask()));
-            },
-            child: Text(
-              'Aufgabe 2',
-              style: TextStyle(fontSize: 20.0),
-            ))
-      ])),
-    ));
+            appBar: AppBar(
+              title: Text('Flutter Workshop'),
+              backgroundColor: Colors.blue,
+            ),
+            body: SingleChildScrollView(
+              child: Center(
+                  child: Column(children: [
+                Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text('Herzlich Willkommen!',
+                      style: Theme.of(context).textTheme.headline2),
+                ),
+                FlutterLogo(
+                  size: 250,
+                ),
+                Padding(
+                    padding: EdgeInsets.fromLTRB(40.0, 10.0, 40.0, 20.0),
+                    child: Text(
+                        'Herzlich Willkommen zum Workshop "Flutter im Web" im Rahmen des Moduls "Web Technologien" im Masterstudiengang Medieninformatik mit dem Schwerpunkt "Weaving the Web" an der Technischen Hochschule Köln. Bitte stellt sicher, dass ihr alle Vorbereitungen getroffen habt und den Code ausführen könnt. Die folgenden Buttons sollten euch zu den Aufgaben für den Workshop weiterleiten. Alternativ könnt ihr über den Pfad um "/aufgabe1" oder "/aufgabe2" in eurer URL-Leiste ergänzen und jeweils die Seite neu laden um auf diesen Screen zurückzukehren.',
+                        style: TextStyle(fontSize: 17.0))),
+                FlatButton(
+                    color: Colors.blueAccent,
+                    textColor: Colors.white,
+                    padding: EdgeInsets.all(15.0),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => StatelessTask()));
+                    },
+                    child: Text(
+                      'Aufgabe 1',
+                      style: TextStyle(fontSize: 20.0),
+                    )),
+                Padding(padding: EdgeInsets.all(10.0)),
+                FlatButton(
+                    color: Colors.blueAccent,
+                    textColor: Colors.white,
+                    padding: EdgeInsets.all(15.0),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => StatefulTask()));
+                    },
+                    child: Text(
+                      'Aufgabe 2',
+                      style: TextStyle(fontSize: 20.0),
+                    ))
+              ])),
+            )));
   }
 }
 
@@ -160,19 +165,20 @@ class _SizeState extends State<StatefulTask> {
     final size = 'Bildgröße';
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(
-        title: Text(size),
-        backgroundColor: Colors.deepOrange,
-      ),
-      body: Center(
-        //TODO: Aufgabe 2
-        //Fünf Buttons implementieren (3 feste Größen, + und -)
-        //Ziel: Verständnis für Widget Tree
-        child: Text(
-          'Die gewünschte Größe ist $_size',
-          style: Theme.of(context).textTheme.headline4,
-        ),
-      ),
-    ));
+            appBar: AppBar(
+              title: Text(size),
+              backgroundColor: Colors.deepOrange,
+            ),
+            body: SingleChildScrollView(
+              child: Center(
+                //TODO: Aufgabe 2
+                //Fünf Buttons implementieren (3 feste Größen, + und -)
+                //Ziel: Verständnis für Widget Tree
+                child: Text(
+                  'Die gewünschte Größe ist $_size',
+                  style: Theme.of(context).textTheme.headline4,
+                ),
+              ),
+            )));
   }
 }
