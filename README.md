@@ -41,14 +41,6 @@ Es sollte sich ein Browserfenster öffnen, in dem die Anwendung läuft.
 
 ![Anwendung](assets/main.PNG)
 
-## Lernziele
-
-* Die Teilnehmenden haben ein Grundverständnis von Flutter mit seinen wesentlichen Zielen und Einsatzmöglichkeiten.
-* Die Telnehmenden haben ein Grundverständnis vom Aufbau einer Flutter Anwendung.
-* Die Teilnehmenden kennen die für Web Technologien relevanten Aspekte von Flutter.
-* Die Teilnehmenden können eigene Projekte mit Flutter umsetzen.
-* Die Teilnehmenden können die Projekte eigenständig weiterentwickeln.
-
 # Links
 
 * [Flutter Dokumentation](https://flutter.dev/)
