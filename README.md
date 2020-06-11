@@ -18,7 +18,7 @@ Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen 
 
 * Das Workshop Repository klonen: `git clone https://github.com/AnleAnja/flutter-workshop.git`
 * Das Flutter Repository klonen: `git clone https://github.com/flutter/flutter.git -b stable`
-* Im Flutter Repository die Flutter Konsole `flutter_console.bat` starten
+* Im Explorer das Flutter Repository öffnen und die Flutter Konsole über die Datei `flutter_console.bat` starten
 * Flutter installieren: `flutter doctor`
 
 ### Set Up
