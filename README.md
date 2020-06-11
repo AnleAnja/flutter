@@ -11,7 +11,7 @@ Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen 
 * IntelliJ IDEA Flutter und Dart Plugins installieren
   * IntelliJ IDEA starten
   * `File` > `Settings` > `Plugins`
-  * nach Flutter und Dart suchen und installieren
+  * nach `Flutter Plugins` suchen und installieren
 * Browser [Google Chrome](https://www.google.com/chrome/) herunterladen und installieren
 
 ### Installation
