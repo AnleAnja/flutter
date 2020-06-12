@@ -18,12 +18,12 @@ Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen 
 
 * Das Workshop Repository klonen: `git clone https://github.com/AnleAnja/flutter-workshop.git`
 * Das Flutter Repository klonen: `git clone https://github.com/flutter/flutter.git -b stable`
-* Im Explorer das Flutter Repository öffnen und die Flutter Konsole über die Datei `flutter_console.bat` starten
-* Flutter installieren: `flutter doctor`
 
-#### Hier sind noch ausführlichere Installationsanleitungen für die verschiedenen Betriebssysteme
+### Installation für die verschiedenen Betriebssysteme
 
 * [Installationsanleitung für Windows](https://flutter.dev/docs/get-started/install/windows)
+  * Im Explorer das Flutter Repository öffnen und die Flutter Konsole über die Datei `flutter_console.bat` starten
+  * Flutter installieren: `flutter doctor`
 * [Installationsanleitung für macOS](https://flutter.dev/docs/get-started/install/macos)
 * [Installationsanleitung für Linux](https://flutter.dev/docs/get-started/install/linux)
 
