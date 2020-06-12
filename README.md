@@ -21,6 +21,12 @@ Flutter ist Googles UI-Toolkit zum Erstellen von nativ kompilierten Anwendungen 
 * Im Explorer das Flutter Repository öffnen und die Flutter Konsole über die Datei `flutter_console.bat` starten
 * Flutter installieren: `flutter doctor`
 
+#### Hier sind noch ausführlichere Installationsanleitungen für die verschiedenen Betriebssysteme
+
+* [Installationsanleitung für Windows](https://flutter.dev/docs/get-started/install/windows)
+* [Installationsanleitung für macOS](https://flutter.dev/docs/get-started/install/macos)
+* [Installationsanleitung für Linux](https://flutter.dev/docs/get-started/install/linux)
+
 ### Set Up
 
 Die folgenden Schritte werden in der Flutter Konsole `flutter_console.bat` ausgeführt und dienen dazu, den web support für die Entwicklung zu aktivieren.
