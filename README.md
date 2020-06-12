@@ -40,7 +40,7 @@ Die folgenden Schritte werden in der Flutter Konsole `flutter_console.bat` ausge
 
 ### Anwendung ausführen
 
-* Innerhalb der Flutter Konsole in den Ordner `aufgaben` dieses Repositorys wechseln: `cd flutter-workshop` + `cd aufgaben`
+* Innerhalb der Flutter Konsole in den Ordner `aufgaben` dieses Repositorys wechseln.
 * `flutter run -d chrome`
 
 Es sollte sich ein Browserfenster öffnen, in dem die Anwendung läuft.
