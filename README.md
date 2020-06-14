@@ -38,6 +38,16 @@ Die folgenden Schritte werden in der Flutter Konsole `flutter_console.bat` ausge
 
 ![Setup](assets/setup.PNG)
 
+### Dart SDK konfigurieren
+
+Im nächsten Schritt wird dieses Repository als Projekt in IntelliJ IDEA gestartet. Wenn ihr im Ordner `lib` eine Datei öffnet, erscheint eine Meldung, dass die Dart SDK konfiguriert werden muss.
+
+* `File` > `Settings` > `Languages & Frameworks` > `Dart`
+* Im Feld `Dart SDK path` wählt ihr im `flutter` Repository den Pfad `bin\cache\dart-sdk` aus
+* Aktiviert den Dart support für das Projekt
+
+![SDK](assets/sdk.PNG)
+
 ### Anwendung ausführen
 
 * Innerhalb der Flutter Konsole in den Ordner `aufgaben` dieses Repositorys wechseln.
