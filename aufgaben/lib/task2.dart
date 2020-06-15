@@ -11,8 +11,6 @@ class _SizeState extends State<SizeChange> {
 
   //TODO: Aufgabe 3
   //Methode für Änderung von _size implementieren
-  //für 3 Buttons: feste Größen
-  //für + und -: Größe +/- 1
   //Ziel: Kommunikation von Daten zwischen verschiedenen Widgets, StatefulWidgets
 
   @override
